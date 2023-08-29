@@ -20,7 +20,7 @@ const getNewWord = async () => {
     try {
         const res = await axios.get(url, headers);
         // console.log(res.data);
-        newWord = `${res.data.word} 2.0`
+        newWord = `${res.data.word}s 2.0`
         header.innerText = titleCase(newWord);
     } catch (e) {
         console.log('error', e);
