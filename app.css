@@ -13,6 +13,8 @@
 body {
     background: var(--background);
     font-family: 'Noto Sans', sans-serif;
+    color: black;
+    overflow: hidden;
 }
 
 main {
@@ -43,6 +45,7 @@ button:hover {
 
 h1 {
     font-size: 48pt;
+    hyphens: auto;
 }
 
 @media (max-width: 450px) {
