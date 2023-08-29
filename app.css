@@ -37,6 +37,7 @@ button {
     border: 2px solid var(--dark);
     background: var(--inactive);
     transition: background .2s ease-in, box-shadow .2s ease-in;
+    color: black;
 }
 
 button:hover {
